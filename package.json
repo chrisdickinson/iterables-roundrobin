@@ -5,7 +5,7 @@
   "main": "iterable-roundrobin.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chrisdickinson/iterables-poll.git"
+    "url": "git+https://github.com/chrisdickinson/iterables-roundrobin.git"
   },
   "scripts": {
     "update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'",
