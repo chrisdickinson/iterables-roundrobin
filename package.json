@@ -1,0 +1,28 @@
+{
+  "name": "@iterables/roundrobin",
+  "version": "1.0.1",
+  "description": "given a set of iterables, take from each one in order until all are exhausted",
+  "main": "iterable-roundrobin.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisdickinson/iterables-poll.git"
+  },
+  "scripts": {
+    "update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'",
+    "update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
+    "prerelease": "npm run update-contrib && npm run update-coc",
+    "release": "standard-version",
+    "test": "tap test.js",
+    "posttest": "standard"
+  },
+  "keywords": [],
+  "author": "Chris Dickinson <chris@neversaw.us> (http://neversaw.us/)",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^10.0.1",
+    "standard-version": "^4.0.0",
+    "tap": "^10.3.1",
+    "weallbehave": "^1.0.3",
+    "weallcontribute": "^1.0.8"
+  }
+}
